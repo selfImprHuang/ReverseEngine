@@ -8,6 +8,7 @@ import (
 	"ReverseEngine/util"
 	"bufio"
 	"database/sql"
+	"fmt"
 	_ "github.com/go-sql-driver/mysql"
 	"gopkg.in/ini.v1"
 	"log"
@@ -146,8 +147,9 @@ func dbReverse(path string, tableName string, dbName string, db *sql.DB) {
 	if !result {
 		return
 	}
-	cms := util.FindColumnMessage(dbName, tableName, db) //查询数据库表字段信息
-	dErr := db.Close()                                   //关闭数据库连接
+	cms := util.FindColumnMessage(dbName, tableName, db)         //查询数据库表字段信息
+	tableComment := util.FindTableComment(dbName, tableName, db) //查询数据库表字段信息
+	dErr := db.Close()                                           //关闭数据库连接
 	checkError(dErr, "数据库关闭失败：")
 	if nil == cms {
 		log.Println("没有查到数据库字段信息略过")

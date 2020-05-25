@@ -3,6 +3,7 @@ package util
 import (
 	"ReverseEngine/entity"
 	"database/sql"
+	"fmt"
 	"strings"
 )
 
@@ -29,4 +30,25 @@ func FindColumnMessage(dbName string, tableName string, db *sql.DB) []entity.Col
 	}
 
 	return cms
+}
+
+func FindTableComment(dbName string, tableName string, db *sql.DB) string {
+
+	sql := fmt.Sprintf("select table_comment from information_schema.tables where table_schema = '%s' and table_name ='%s'", dbName, tableName)
+	row, err := db.Query(sql)
+	if err != nil {
+		panic("数据库查询出错：" + err.Error())
+	}
+	fmt.Println(row)
+	var s string
+	for row.Next() {
+		err := row.Scan(&s)
+		if err != nil {
+			panic("字段赋值错误了" + err.Error())
+			return ""
+		}
+		break
+	}
+
+	return s
 }
