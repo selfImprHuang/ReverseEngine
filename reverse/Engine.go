@@ -154,9 +154,9 @@ func dbReverse(path string, tableName string, dbName string, db *sql.DB) {
 	if nil == cms {
 		log.Println("没有查到数据库字段信息略过")
 	}
-	fms, hasTime := buildFieldMessage(cms)                                   //创建字段名和类型的映射
-	w := bufio.NewWriter(file)                                               //进行文件的操作
-	content := cg.GenerateFileContent(path, tableName, fms, hasTime, tagKey) //拼go文件
+	fms, hasTime := buildFieldMessage(cms)                                                 //创建字段名和类型的映射
+	w := bufio.NewWriter(file)                                                             //进行文件的操作
+	content := cg.GenerateFileContent(path, tableName, fms, hasTime, tagKey, tableComment) //拼go文件
 	_, err := w.WriteString(content)
 	checkError(err, "写入出错了：")
 	fErr, cErr := w.Flush(), file.Close()

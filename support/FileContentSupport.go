@@ -8,13 +8,14 @@ import (
 
 type FileContentSupport struct{}
 
-func (FileContentSupport) GenerateFileContent(filePath string, fileName string, fms []entity.FieldMessage, hasTime bool, tagKey string) string {
+func (FileContentSupport) GenerateFileContent(filePath string, fileName string, fms []entity.FieldMessage, hasTime bool, tagKey string, tableComment string) string {
 	var build strings.Builder
 	pName := splitLast(filePath, static.Splice)
 
-	writePackage(&build, pName)        //写文件的引用包
-	writeImportIfTime(&build, hasTime) //如果有time.Time类型的需要写入import
-	buildStructHead(&build, fileName)  //写入结构体头
+	writePackage(&build, pName)             //写文件的引用包
+	writeImportIfTime(&build, hasTime)      //如果有time.Time类型的需要写入import
+	writeTableComment(&build, tableComment) //写入表注释
+	buildStructHead(&build, fileName)       //写入结构体头
 
 	//对于没有字段的返回空定义的文件
 	if len(fms) == 0 {
@@ -98,4 +99,11 @@ func writePackage(build *strings.Builder, pName string) {
 func splitLast(filePath string, split string) string {
 	ss := strings.Split(filePath, split)
 	return ss[len(ss)-1]
+}
+
+func writeTableComment(builder *strings.Builder, s string) {
+	if s != "" {
+		builder.WriteString("//" + s)
+		builder.WriteString("\n")
+	}
 }
