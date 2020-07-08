@@ -1,0 +1,4 @@
+# github.com/go-sql-driver/mysql v1.5.0
+github.com/go-sql-driver/mysql
+# gopkg.in/ini.v1 v1.51.1
+gopkg.in/ini.v1

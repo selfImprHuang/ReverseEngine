@@ -8,7 +8,6 @@ import (
 	"ReverseEngine/util"
 	"bufio"
 	"database/sql"
-	"fmt"
 	_ "github.com/go-sql-driver/mysql"
 	"gopkg.in/ini.v1"
 	"log"

@@ -6,7 +6,7 @@ require (
 	github.com/ahmetb/go-linq v3.0.0+incompatible // indirect
 	github.com/gin-contrib/sse v0.0.0-20190125020943-a7658810eb74 // indirect
 	github.com/gin-gonic/gin v1.3.0 // indirect
-	github.com/go-ini/ini v1.51.1 //read init property
+	github.com/go-ini/ini v1.51.1 // indirect; read init property
 	github.com/go-redis/redis v6.15.2+incompatible // indirect
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/go-xorm/cmd v0.0.0-20190426080617-f87981e709a1 // indirect

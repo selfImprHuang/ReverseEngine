@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/Go_GrandMainSer/my_version/src/GrandMainSer/app/admin/TimeLimitSynthesisActivity/AdminEditTimeLimitSynthesisActivity_25301.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/Go_GrandMainSer/my_version/src/GrandMainSer/app/admin/TimeLimitSynthesisActivity/AdminFindTimeLimitSynthesisActivity_25304.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/Go_GrandMainSer/my_version/src/GrandMainSer/app/cheat/gm/GmFuncManager.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/Go_GrandMainSer/my_version/src/GrandMainSer/app/cheat/gm/TimeLimitActivity.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/Go_GrandMainSer/my_version/src/GrandMainSer/app/component/itemCmp/ItemComponent.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/Go_GrandMainSer/my_version/src/GrandMainSer/app/component/timelimitSynthesisCmp/SynthesisCmp.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/Go_GrandMainSer/my_version/src/GrandMainSer/app/dal/TbSrv/TbRActivitySynthesisRecord.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/Go_GrandMainSer/my_version/src/GrandMainSer/app/dal/TbSrv/TbTimeLimitSynthesisActivity.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/Go_packages/src/GrandMainSer/app/action/activityConfig/GetActivityConfig_11901.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/Go_packages/src/GrandMainSer/app/admin/TimeLimitSynthesisActivity/AdminEditTimeLimitSynthesisActivity_25301.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/Go_packages/src/GrandMainSer/app/component/timelimitSynthesisCmp/SynthesisStruct.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/Go_packages/src/GrandMainSer/app/testlib/TgLoginRecord_test/TgLoginRecord_FindByRoleId.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Go-SubTableTool/util/filedValueTool.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Go-Tool/MainTest.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Go-Tool/err/FileError.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Go-Tool/error/FileError.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Go-Tool/readme.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Go-Tool/util/ColorUtil.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Go-Tool/util/FileReadTool.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Go-Tool/util/FileUtil.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Go-Tool/util/FileWriteTool.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Go-Tool/util/FiledValueTool.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Go-Tool/util/MatrixRotationUtil.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Go-Tool/util/file/FileReadTool.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Go-Tool/util/ini/IniTool.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Go-Tool/util/reflectM/FiledValueTool.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Go-Tool/util/tableField/ColumnMessage.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Go-Tool/util/tableField/TableFieldUtil.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Main.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/README.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/entity/ColumnMessage.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/entity/FiledMessage.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/entity/TableMessage.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/filepath/Testreversing.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/go.mod">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/imp/ContentGenerate.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/imp/DbConnection.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/imp/ReverseCheck.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/reverse/Engine.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/reverse/config.ini">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/static/DealConst.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/support/FileContentSupport.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/support/FileContentSupport2.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/util/DbUtil.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/util/FileUtil.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/self_project/src/LocalTest/TestMain.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/代码/Game_Server/src/GrandMainSer/app/business/giftShopCabinet/giftShopCabinetAction/13231_GiftShopCabinet.go">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
